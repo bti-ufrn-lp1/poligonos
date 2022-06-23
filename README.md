@@ -1,4 +1,4 @@
-# Veiculos
+# Poligonos
 
 ## Sobre
 
@@ -11,9 +11,6 @@ Este programa agrega três classes. A classe [`Poligono`](include/poligono.h) de
 De forma simples, as classes [`Retangulo`](include/retangulo.h) e [`Triangulo`](include/triangulo.h) representam respectivamente um retângulo e um triângulo, cada uma delas provendo implementações próprias para os métodos definidos na interface [`Poligono`](include/poligono.h). O diagrama a seguir representa os relacionamentos entre as classes que compõem o programa:
 
 <div align="center">
-  
-![](doc/class_poligono__inherit__graph.png) ![](doc/class_poligono__inherit__graph.png)
-
 <img src="doc/class_poligono__inherit__graph.png" />
 </div>
 
