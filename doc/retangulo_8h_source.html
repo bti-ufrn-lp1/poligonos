@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Polígonos: Código-Fonte de include/retangulo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Polígonos
+   </div>
+   <div id="projectbrief">Demonstração da implementação de herança, classes abstratas e interfaces em C++</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">retangulo.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="retangulo_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef RETANGULO_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define RETANGULO_H</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="poligono_8h.html">poligono.h</a>&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_retangulo.html">   21</a></span><span class="keyword">class </span><a class="code hl_class" href="class_retangulo.html">Retangulo</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_poligono.html">Poligono</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_retangulo.html#a003351ed526dfeb43350f38d18ad8261">   25</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="class_retangulo.html#a003351ed526dfeb43350f38d18ad8261">largura</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_retangulo.html#aea2e33f108cefa939014bfb638781189">   28</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="class_retangulo.html#aea2e33f108cefa939014bfb638781189">altura</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_function" href="class_retangulo.html#adc71519e52c24dbc05d63fd3c10c3d9e">Retangulo</a>(<span class="keywordtype">double</span> l, <span class="keywordtype">double</span> a);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_retangulo.html#ae91e4d6741207083b7f739700c93ed08">getLargura</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_retangulo.html#ad0d8f61d334699e8221888be6b75287d">setLargura</a>(<span class="keywordtype">double</span> l);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_retangulo.html#ad92903faddbc0ca108767d63f487b783">getAltura</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_retangulo.html#af60be8b0680a9743184a849f07f57765">setAltura</a>(<span class="keywordtype">double</span> a);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_retangulo.html#a9bfaa1a8af68597677ee425f35b1e4e9">print</a>();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="class_retangulo.html#a46c044ff09c5c39de0a96711815e74ae">area</a>();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>};</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_poligono_html"><div class="ttname"><a href="class_poligono.html">Poligono</a></div><div class="ttdoc">Interface que representa um polígono qualquer.</div><div class="ttdef"><b>Definition:</b> poligono.h:19</div></div>
+<div class="ttc" id="aclass_retangulo_html"><div class="ttname"><a href="class_retangulo.html">Retangulo</a></div><div class="ttdoc">Classe que representa um retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.h:21</div></div>
+<div class="ttc" id="aclass_retangulo_html_a003351ed526dfeb43350f38d18ad8261"><div class="ttname"><a href="class_retangulo.html#a003351ed526dfeb43350f38d18ad8261">Retangulo::largura</a></div><div class="ttdeci">double largura</div><div class="ttdoc">Largura do retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.h:25</div></div>
+<div class="ttc" id="aclass_retangulo_html_a46c044ff09c5c39de0a96711815e74ae"><div class="ttname"><a href="class_retangulo.html#a46c044ff09c5c39de0a96711815e74ae">Retangulo::area</a></div><div class="ttdeci">double area()</div><div class="ttdoc">Calcula a área do retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.cpp:65</div></div>
+<div class="ttc" id="aclass_retangulo_html_a9bfaa1a8af68597677ee425f35b1e4e9"><div class="ttname"><a href="class_retangulo.html#a9bfaa1a8af68597677ee425f35b1e4e9">Retangulo::print</a></div><div class="ttdeci">void print()</div><div class="ttdoc">Exibe as informações de largura e altura do retãngulo.</div><div class="ttdef"><b>Definition:</b> retangulo.cpp:57</div></div>
+<div class="ttc" id="aclass_retangulo_html_ad0d8f61d334699e8221888be6b75287d"><div class="ttname"><a href="class_retangulo.html#ad0d8f61d334699e8221888be6b75287d">Retangulo::setLargura</a></div><div class="ttdeci">void setLargura(double l)</div><div class="ttdoc">Modifica a largura do retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.cpp:36</div></div>
+<div class="ttc" id="aclass_retangulo_html_ad92903faddbc0ca108767d63f487b783"><div class="ttname"><a href="class_retangulo.html#ad92903faddbc0ca108767d63f487b783">Retangulo::getAltura</a></div><div class="ttdeci">double getAltura()</div><div class="ttdoc">Retorna a altura do retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.cpp:44</div></div>
+<div class="ttc" id="aclass_retangulo_html_adc71519e52c24dbc05d63fd3c10c3d9e"><div class="ttname"><a href="class_retangulo.html#adc71519e52c24dbc05d63fd3c10c3d9e">Retangulo::Retangulo</a></div><div class="ttdeci">Retangulo(double l, double a)</div><div class="ttdoc">Construtor parametrizado.</div><div class="ttdef"><b>Definition:</b> retangulo.cpp:21</div></div>
+<div class="ttc" id="aclass_retangulo_html_ae91e4d6741207083b7f739700c93ed08"><div class="ttname"><a href="class_retangulo.html#ae91e4d6741207083b7f739700c93ed08">Retangulo::getLargura</a></div><div class="ttdeci">double getLargura()</div><div class="ttdoc">Retorna a largura do retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.cpp:28</div></div>
+<div class="ttc" id="aclass_retangulo_html_aea2e33f108cefa939014bfb638781189"><div class="ttname"><a href="class_retangulo.html#aea2e33f108cefa939014bfb638781189">Retangulo::altura</a></div><div class="ttdeci">double altura</div><div class="ttdoc">Altura do retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.h:28</div></div>
+<div class="ttc" id="aclass_retangulo_html_af60be8b0680a9743184a849f07f57765"><div class="ttname"><a href="class_retangulo.html#af60be8b0680a9743184a849f07f57765">Retangulo::setAltura</a></div><div class="ttdeci">void setAltura(double a)</div><div class="ttdoc">Modifica a altura do retângulo.</div><div class="ttdef"><b>Definition:</b> retangulo.cpp:52</div></div>
+<div class="ttc" id="apoligono_8h_html"><div class="ttname"><a href="poligono_8h.html">poligono.h</a></div><div class="ttdoc">Definição da interface Poligono.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="Poligono" name="Poligono">
+<area shape="rect" id="node1" title="Interface que representa um polígono qualquer." alt="" coords="111,5,273,97"/>
+<area shape="rect" id="node2" href="$class_retangulo.html" title="Classe que representa um retângulo." alt="" coords="5,145,181,340"/>
+<area shape="rect" id="node3" href="$class_triangulo.html" title="Classe que representa um triângulo." alt="" coords="205,145,376,340"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="include/poligono.h" name="include/poligono.h">
+<area shape="rect" id="node1" title="Definição da interface Poligono." alt="" coords="138,5,265,32"/>
+<area shape="rect" id="node2" href="$retangulo_8h.html" title="Definição da classe Retangulo." alt="" coords="33,80,164,107"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="Implementação do programa principal." alt="" coords="153,155,250,181"/>
+<area shape="rect" id="node5" href="$triangulo_8h.html" title="Definição da classe Triangulo." alt="" coords="239,80,366,107"/>
+<area shape="rect" id="node4" href="$retangulo_8cpp.html" title="Implementação da classe Retangulo." alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node6" href="$triangulo_8cpp.html" title="Implementação da classe Triangulo." alt="" coords="274,155,393,181"/>
+</map>
